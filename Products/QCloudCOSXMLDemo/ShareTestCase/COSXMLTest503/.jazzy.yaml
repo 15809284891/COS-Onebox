@@ -1,0 +1,10 @@
+module: COSXMLTest503
+author: QCloudTerminalLab
+author_url: http://qcloud.com
+objc: true
+clean: true
+framework_root: .
+umbrella_header: Pod/Classes/COSXMLTest503.h
+sdk: iphoneos
+hide_documentation_coverage: true
+docset_path: com.tencent.qcloud.COSXMLTest503.docset

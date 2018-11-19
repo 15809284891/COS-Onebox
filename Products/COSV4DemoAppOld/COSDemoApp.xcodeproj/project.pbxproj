@@ -1,0 +1,1874 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		266DDC83DA89FD94C86D0C4F /* libPods-COSDemoApp-COSDemoAppTests1.5.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE7F746C88F8D0E64A2E3E73 /* libPods-COSDemoApp-COSDemoAppTests1.5.3.a */; };
+		4647E4FD1DC08F14008A7ED3 /* ceshi_jp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4647E4FC1DC08F14008A7ED3 /* ceshi_jp.jpg */; };
+		4667D9FA1D6C4729001C9916 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4667D9F91D6C4729001C9916 /* main.m */; };
+		4667D9FD1D6C4729001C9916 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4667D9FC1D6C4729001C9916 /* AppDelegate.m */; };
+		4667DA001D6C4729001C9916 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4667D9FF1D6C4729001C9916 /* ViewController.m */; };
+		4667DA031D6C4729001C9916 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4667DA011D6C4729001C9916 /* Main.storyboard */; };
+		4667DA051D6C4729001C9916 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4667DA041D6C4729001C9916 /* Assets.xcassets */; };
+		4667DA081D6C4729001C9916 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4667DA061D6C4729001C9916 /* LaunchScreen.storyboard */; };
+		4667DA131D6C4729001C9916 /* COSDemoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4667DA121D6C4729001C9916 /* COSDemoAppTests.m */; };
+		4667DA1E1D6C4729001C9916 /* COSDemoAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4667DA1D1D6C4729001C9916 /* COSDemoAppUITests.m */; };
+		4667DA611D6DC788001C9916 /* FileBrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4667DA601D6DC788001C9916 /* FileBrowserController.m */; };
+		4667DAAF1D6ED869001C9916 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4667DAAC1D6ED869001C9916 /* BaseViewController.m */; };
+		4667DAB01D6ED869001C9916 /* HttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4667DAAE1D6ED869001C9916 /* HttpClient.m */; };
+		468DAB7B1D86735A00657254 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 468DAB7A1D86735A00657254 /* RegisterViewController.m */; };
+		468DAB7E1D8677E200657254 /* Congfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 468DAB7D1D8677E200657254 /* Congfig.m */; };
+		468DAB811D867DFC00657254 /* QCloudUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 468DAB801D867DFC00657254 /* QCloudUtils.m */; };
+		46EE90171DBB37C700628CBC /* IMG_0225.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 46EE90161DBB37C700628CBC /* IMG_0225.jpg */; };
+		46EE901B1DBB45F600628CBC /* test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 46EE901A1DBB45F600628CBC /* test.mp4 */; };
+		8BDE0DFB78EB36999D0C0ED0 /* libPods-COSDemoAppUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AAE468BBCDEB43ABC83B4EE /* libPods-COSDemoAppUITests.a */; };
+		9E9653750333D1C05240E313 /* libPods-COSDemoApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3C45E93631CCA79626F6A18 /* libPods-COSDemoApp.a */; };
+		A84AB514201C2C7700A47F14 /* key.json in Resources */ = {isa = PBXBuildFile; fileRef = A84AB513201C2C7700A47F14 /* key.json */; };
+		A84AB515201C2C7700A47F14 /* key.json in Resources */ = {isa = PBXBuildFile; fileRef = A84AB513201C2C7700A47F14 /* key.json */; };
+		A84AB516201C2C7700A47F14 /* key.json in Resources */ = {isa = PBXBuildFile; fileRef = A84AB513201C2C7700A47F14 /* key.json */; };
+		A84AB517201C2C7700A47F14 /* key.json in Resources */ = {isa = PBXBuildFile; fileRef = A84AB513201C2C7700A47F14 /* key.json */; };
+		A84AB518201C2C7700A47F14 /* key.json in Resources */ = {isa = PBXBuildFile; fileRef = A84AB513201C2C7700A47F14 /* key.json */; };
+		A84AB519201C2C7700A47F14 /* key.json in Resources */ = {isa = PBXBuildFile; fileRef = A84AB513201C2C7700A47F14 /* key.json */; };
+		A84AB51A201C2C7700A47F14 /* key.json in Resources */ = {isa = PBXBuildFile; fileRef = A84AB513201C2C7700A47F14 /* key.json */; };
+		A84AB51B201C2C7700A47F14 /* key.json in Resources */ = {isa = PBXBuildFile; fileRef = A84AB513201C2C7700A47F14 /* key.json */; };
+		A84AB51C201C2C7700A47F14 /* key.json in Resources */ = {isa = PBXBuildFile; fileRef = A84AB513201C2C7700A47F14 /* key.json */; };
+		A862AC7C201766AA009F88C2 /* COSDemoAppTests1_5_5.m in Sources */ = {isa = PBXBuildFile; fileRef = A862AC7B201766AA009F88C2 /* COSDemoAppTests1_5_5.m */; };
+		A862AC98201767CC009F88C2 /* COSDemoAppTests1_5_4.m in Sources */ = {isa = PBXBuildFile; fileRef = A862AC97201767CC009F88C2 /* COSDemoAppTests1_5_4.m */; };
+		A862ACA6201767D7009F88C2 /* COSDemoAppTests1_5_3.m in Sources */ = {isa = PBXBuildFile; fileRef = A862ACA5201767D7009F88C2 /* COSDemoAppTests1_5_3.m */; };
+		A862ACB4201767E4009F88C2 /* COSDemoAppTests1_5_2.m in Sources */ = {isa = PBXBuildFile; fileRef = A862ACB3201767E4009F88C2 /* COSDemoAppTests1_5_2.m */; };
+		A862ACC2201767EC009F88C2 /* COSDemoAppTests1_5_1.m in Sources */ = {isa = PBXBuildFile; fileRef = A862ACC1201767EC009F88C2 /* COSDemoAppTests1_5_1.m */; };
+		A862ACD0201767F5009F88C2 /* COSDemoAppTests1_5_0.m in Sources */ = {isa = PBXBuildFile; fileRef = A862ACCF201767F5009F88C2 /* COSDemoAppTests1_5_0.m */; };
+		A862ACEC2018252A009F88C2 /* COSDemoAppTests1_4_0.m in Sources */ = {isa = PBXBuildFile; fileRef = A862ACEB2018252A009F88C2 /* COSDemoAppTests1_4_0.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4667DA0F1D6C4729001C9916 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4667D9ED1D6C4729001C9916 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4667D9F41D6C4729001C9916;
+			remoteInfo = COSDemoApp;
+		};
+		4667DA1A1D6C4729001C9916 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4667D9ED1D6C4729001C9916 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4667D9F41D6C4729001C9916;
+			remoteInfo = COSDemoApp;
+		};
+		A862AC7E201766AA009F88C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4667D9ED1D6C4729001C9916 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4667D9F41D6C4729001C9916;
+			remoteInfo = COSDemoApp;
+		};
+		A862AC9A201767CC009F88C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4667D9ED1D6C4729001C9916 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4667D9F41D6C4729001C9916;
+			remoteInfo = COSDemoApp;
+		};
+		A862ACA8201767D7009F88C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4667D9ED1D6C4729001C9916 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4667D9F41D6C4729001C9916;
+			remoteInfo = COSDemoApp;
+		};
+		A862ACB6201767E4009F88C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4667D9ED1D6C4729001C9916 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4667D9F41D6C4729001C9916;
+			remoteInfo = COSDemoApp;
+		};
+		A862ACC4201767EC009F88C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4667D9ED1D6C4729001C9916 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4667D9F41D6C4729001C9916;
+			remoteInfo = COSDemoApp;
+		};
+		A862ACD2201767F5009F88C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4667D9ED1D6C4729001C9916 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4667D9F41D6C4729001C9916;
+			remoteInfo = COSDemoApp;
+		};
+		A862ACEE2018252A009F88C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4667D9ED1D6C4729001C9916 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4667D9F41D6C4729001C9916;
+			remoteInfo = COSDemoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		014402ECBF36CCBD1262C14C /* libPods-COSDemoAppTests1.5.2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-COSDemoAppTests1.5.2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01EF61B2BD0D12088B761C6D /* Pods-COSDemoApp-COSDemoAppTests1.5.3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COSDemoApp-COSDemoAppTests1.5.3.release.xcconfig"; path = "Pods/Target Support Files/Pods-COSDemoApp-COSDemoAppTests1.5.3/Pods-COSDemoApp-COSDemoAppTests1.5.3.release.xcconfig"; sourceTree = "<group>"; };
+		0629F515C917983AEC4A6934 /* Pods-COSDemoAppTests1.5.5.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COSDemoAppTests1.5.5.debug.xcconfig"; path = "Pods/Target Support Files/Pods-COSDemoAppTests1.5.5/Pods-COSDemoAppTests1.5.5.debug.xcconfig"; sourceTree = "<group>"; };
+		09F579173342EE4299B02067 /* libPods-COSDemoAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-COSDemoAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		124A6376F910DAD5742EAA89 /* libPods-COSDemoAppTests1.4.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-COSDemoAppTests1.4.0.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37F4F837E2757EBCEFA752BD /* libPods-COSDemoApp-COSDemoAppTests1.5.2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-COSDemoApp-COSDemoAppTests1.5.2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D27B5602BCBA0EF059E2B8F /* libPods-COSDemoApp-COSDemoAppTests1.5.4.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-COSDemoApp-COSDemoAppTests1.5.4.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		407F61C85CB78FC07E248A1A /* Pods-COSDemoAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COSDemoAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-COSDemoAppUITests/Pods-COSDemoAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4647E4FC1DC08F14008A7ED3 /* ceshi_jp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ceshi_jp.jpg; sourceTree = "<group>"; };
+		4667D9F51D6C4729001C9916 /* COSDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = COSDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4667D9F91D6C4729001C9916 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4667D9FB1D6C4729001C9916 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4667D9FC1D6C4729001C9916 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4667D9FE1D6C4729001C9916 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4667D9FF1D6C4729001C9916 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4667DA021D6C4729001C9916 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4667DA041D6C4729001C9916 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4667DA071D6C4729001C9916 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4667DA091D6C4729001C9916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4667DA0E1D6C4729001C9916 /* COSDemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = COSDemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4667DA121D6C4729001C9916 /* COSDemoAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = COSDemoAppTests.m; sourceTree = "<group>"; };
+		4667DA141D6C4729001C9916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4667DA191D6C4729001C9916 /* COSDemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = COSDemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4667DA1D1D6C4729001C9916 /* COSDemoAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = COSDemoAppUITests.m; sourceTree = "<group>"; };
+		4667DA1F1D6C4729001C9916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4667DA5F1D6DC788001C9916 /* FileBrowserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileBrowserController.h; sourceTree = "<group>"; };
+		4667DA601D6DC788001C9916 /* FileBrowserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileBrowserController.m; sourceTree = "<group>"; };
+		4667DAAB1D6ED869001C9916 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		4667DAAC1D6ED869001C9916 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		4667DAAD1D6ED869001C9916 /* HttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpClient.h; sourceTree = "<group>"; };
+		4667DAAE1D6ED869001C9916 /* HttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpClient.m; sourceTree = "<group>"; };
+		468DAB791D86735A00657254 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		468DAB7A1D86735A00657254 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		468DAB7C1D8677E200657254 /* Congfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Congfig.h; sourceTree = "<group>"; };
+		468DAB7D1D8677E200657254 /* Congfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Congfig.m; sourceTree = "<group>"; };
+		468DAB7F1D867DFC00657254 /* QCloudUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCloudUtils.h; sourceTree = "<group>"; };
+		468DAB801D867DFC00657254 /* QCloudUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCloudUtils.m; sourceTree = "<group>"; };
+		46EE90161DBB37C700628CBC /* IMG_0225.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0225.jpg; sourceTree = "<group>"; };
+		46EE901A1DBB45F600628CBC /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.mp4; sourceTree = "<group>"; };
+		4AAE468BBCDEB43ABC83B4EE /* libPods-COSDemoAppUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-COSDemoAppUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52899BA6BA7B0F21A3095C00 /* Pods-COSDemoAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COSDemoAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-COSDemoAppUITests/Pods-COSDemoAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5623F703093623AE9A8F7050 /* libPods-COSDemoAppTests1.5.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-COSDemoAppTests1.5.0.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E19CE9E94945469DC64D813 /* libPods-COSDemoApp-COSDemoAppTests1.5.5.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-COSDemoApp-COSDemoAppTests1.5.5.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68C241B8C9347A8FA2CDAA53 /* libPods-COSDemoApp-COSDemoAppTests1.5.1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-COSDemoApp-COSDemoAppTests1.5.1.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		746927011822215588A6D0E6 /* libPods-COSDemoAppTests1.5.4.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-COSDemoAppTests1.5.4.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9979A4E0E190C9EB865A4B5C /* libPods-COSDemoAppTests1.5.1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-COSDemoAppTests1.5.1.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AA4F76403DE0D1D30380DA3 /* libPods-COSDemoAppTests1.5.3.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-COSDemoAppTests1.5.3.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3C45E93631CCA79626F6A18 /* libPods-COSDemoApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-COSDemoApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3F4C007D1525B4DE64781D4 /* libPods-COSDemoApp-COSDemoAppTests1.5.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-COSDemoApp-COSDemoAppTests1.5.0.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A84AB513201C2C7700A47F14 /* key.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = key.json; sourceTree = "<group>"; };
+		A862AC79201766AA009F88C2 /* COSDemoAppTests1.5.5.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = COSDemoAppTests1.5.5.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A862AC7B201766AA009F88C2 /* COSDemoAppTests1_5_5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = COSDemoAppTests1_5_5.m; sourceTree = "<group>"; };
+		A862AC7D201766AA009F88C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A862AC8920176796009F88C2 /* COSDemoAppUITests1_5_4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = COSDemoAppUITests1_5_4.m; sourceTree = "<group>"; };
+		A862AC8B20176796009F88C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A862AC95201767CC009F88C2 /* COSDemoAppTests1.5.4.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = COSDemoAppTests1.5.4.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A862AC97201767CC009F88C2 /* COSDemoAppTests1_5_4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = COSDemoAppTests1_5_4.m; sourceTree = "<group>"; };
+		A862AC99201767CC009F88C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A862ACA3201767D7009F88C2 /* COSDemoAppTests1.5.3.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = COSDemoAppTests1.5.3.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A862ACA5201767D7009F88C2 /* COSDemoAppTests1_5_3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = COSDemoAppTests1_5_3.m; sourceTree = "<group>"; };
+		A862ACA7201767D7009F88C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A862ACB1201767E4009F88C2 /* COSDemoAppTests1.5.2.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = COSDemoAppTests1.5.2.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A862ACB3201767E4009F88C2 /* COSDemoAppTests1_5_2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = COSDemoAppTests1_5_2.m; sourceTree = "<group>"; };
+		A862ACB5201767E4009F88C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A862ACBF201767EC009F88C2 /* COSDemoAppTests1.5.1.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = COSDemoAppTests1.5.1.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A862ACC1201767EC009F88C2 /* COSDemoAppTests1_5_1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = COSDemoAppTests1_5_1.m; sourceTree = "<group>"; };
+		A862ACC3201767EC009F88C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A862ACCD201767F5009F88C2 /* COSDemoAppTests1.5.0.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = COSDemoAppTests1.5.0.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A862ACCF201767F5009F88C2 /* COSDemoAppTests1_5_0.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = COSDemoAppTests1_5_0.m; sourceTree = "<group>"; };
+		A862ACD1201767F5009F88C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A862ACDD20176819009F88C2 /* COSDemoAppUITests1_4_0.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = COSDemoAppUITests1_4_0.m; sourceTree = "<group>"; };
+		A862ACDF20176819009F88C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A862ACE92018252A009F88C2 /* COSDemoAppTests1.4.0.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = COSDemoAppTests1.4.0.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A862ACEB2018252A009F88C2 /* COSDemoAppTests1_4_0.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = COSDemoAppTests1_4_0.m; sourceTree = "<group>"; };
+		A862ACED2018252A009F88C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BADA8FABCAD4189DC472884C /* libPods-COSDemoAppTests1.5.5.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-COSDemoAppTests1.5.5.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4C3072B4B7A513D7BCAE44B /* Pods-COSDemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COSDemoApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-COSDemoApp/Pods-COSDemoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D7BE437C8356E99D67DA0670 /* libPods-COSDemoApp-COSDemoAppTests1.4.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-COSDemoApp-COSDemoAppTests1.4.0.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE7F746C88F8D0E64A2E3E73 /* libPods-COSDemoApp-COSDemoAppTests1.5.3.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-COSDemoApp-COSDemoAppTests1.5.3.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F494955763EF48DB5BE1449F /* Pods-COSDemoApp-COSDemoAppTests1.5.3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COSDemoApp-COSDemoAppTests1.5.3.debug.xcconfig"; path = "Pods/Target Support Files/Pods-COSDemoApp-COSDemoAppTests1.5.3/Pods-COSDemoApp-COSDemoAppTests1.5.3.debug.xcconfig"; sourceTree = "<group>"; };
+		F8492F6BAE142338286E54DE /* Pods-COSDemoAppTests1.5.5.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COSDemoAppTests1.5.5.release.xcconfig"; path = "Pods/Target Support Files/Pods-COSDemoAppTests1.5.5/Pods-COSDemoAppTests1.5.5.release.xcconfig"; sourceTree = "<group>"; };
+		FF7BC4CD9F751A52A069E845 /* Pods-COSDemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COSDemoApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-COSDemoApp/Pods-COSDemoApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4667D9F21D6C4729001C9916 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E9653750333D1C05240E313 /* libPods-COSDemoApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4667DA0B1D6C4729001C9916 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4667DA161D6C4729001C9916 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BDE0DFB78EB36999D0C0ED0 /* libPods-COSDemoAppUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A862AC76201766AA009F88C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A862AC92201767CC009F88C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A862ACA0201767D7009F88C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				266DDC83DA89FD94C86D0C4F /* libPods-COSDemoApp-COSDemoAppTests1.5.3.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A862ACAE201767E4009F88C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A862ACBC201767EC009F88C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A862ACCA201767F5009F88C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A862ACE62018252A009F88C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4667D9EC1D6C4729001C9916 = {
+			isa = PBXGroup;
+			children = (
+				A84AB513201C2C7700A47F14 /* key.json */,
+				4667D9F71D6C4729001C9916 /* COSDemoApp */,
+				4667DA111D6C4729001C9916 /* COSDemoAppTests */,
+				4667DA1C1D6C4729001C9916 /* COSDemoAppUITests */,
+				A862AC7A201766AA009F88C2 /* COSDemoAppTests1.5.5 */,
+				A862AC8820176796009F88C2 /* COSDemoAppUITests1.5.4 */,
+				A862AC96201767CC009F88C2 /* COSDemoAppTests1.5.4 */,
+				A862ACA4201767D7009F88C2 /* COSDemoAppTests1.5.3 */,
+				A862ACB2201767E4009F88C2 /* COSDemoAppTests1.5.2 */,
+				A862ACC0201767EC009F88C2 /* COSDemoAppTests1.5.1 */,
+				A862ACCE201767F5009F88C2 /* COSDemoAppTests1.5.0 */,
+				A862ACDC20176819009F88C2 /* COSDemoAppUITests1.4.0 */,
+				A862ACEA2018252A009F88C2 /* COSDemoAppTests1.4.0 */,
+				4667D9F61D6C4729001C9916 /* Products */,
+				5D3C8AB903BD8A3FF497CE07 /* Pods */,
+				6AA44ED6648F8B759965D116 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4667D9F61D6C4729001C9916 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4667D9F51D6C4729001C9916 /* COSDemoApp.app */,
+				4667DA0E1D6C4729001C9916 /* COSDemoAppTests.xctest */,
+				4667DA191D6C4729001C9916 /* COSDemoAppUITests.xctest */,
+				A862AC79201766AA009F88C2 /* COSDemoAppTests1.5.5.xctest */,
+				A862AC95201767CC009F88C2 /* COSDemoAppTests1.5.4.xctest */,
+				A862ACA3201767D7009F88C2 /* COSDemoAppTests1.5.3.xctest */,
+				A862ACB1201767E4009F88C2 /* COSDemoAppTests1.5.2.xctest */,
+				A862ACBF201767EC009F88C2 /* COSDemoAppTests1.5.1.xctest */,
+				A862ACCD201767F5009F88C2 /* COSDemoAppTests1.5.0.xctest */,
+				A862ACE92018252A009F88C2 /* COSDemoAppTests1.4.0.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4667D9F71D6C4729001C9916 /* COSDemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				4667DAB11D6EE5E2001C9916 /* AppUtil */,
+				4667D9FE1D6C4729001C9916 /* ViewController.h */,
+				4667D9FF1D6C4729001C9916 /* ViewController.m */,
+				46EE90161DBB37C700628CBC /* IMG_0225.jpg */,
+				468DAB791D86735A00657254 /* RegisterViewController.h */,
+				468DAB7A1D86735A00657254 /* RegisterViewController.m */,
+				4667DA041D6C4729001C9916 /* Assets.xcassets */,
+				4667DA061D6C4729001C9916 /* LaunchScreen.storyboard */,
+				4667DA091D6C4729001C9916 /* Info.plist */,
+				4667D9F81D6C4729001C9916 /* Supporting Files */,
+			);
+			path = COSDemoApp;
+			sourceTree = "<group>";
+		};
+		4667D9F81D6C4729001C9916 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4667D9F91D6C4729001C9916 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4667DA111D6C4729001C9916 /* COSDemoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				4667DA121D6C4729001C9916 /* COSDemoAppTests.m */,
+				4667DA141D6C4729001C9916 /* Info.plist */,
+			);
+			path = COSDemoAppTests;
+			sourceTree = "<group>";
+		};
+		4667DA1C1D6C4729001C9916 /* COSDemoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4667DA1D1D6C4729001C9916 /* COSDemoAppUITests.m */,
+				4667DA1F1D6C4729001C9916 /* Info.plist */,
+			);
+			path = COSDemoAppUITests;
+			sourceTree = "<group>";
+		};
+		4667DAB11D6EE5E2001C9916 /* AppUtil */ = {
+			isa = PBXGroup;
+			children = (
+				4667DA011D6C4729001C9916 /* Main.storyboard */,
+				46EE901A1DBB45F600628CBC /* test.mp4 */,
+				4647E4FC1DC08F14008A7ED3 /* ceshi_jp.jpg */,
+				4667D9FB1D6C4729001C9916 /* AppDelegate.h */,
+				4667D9FC1D6C4729001C9916 /* AppDelegate.m */,
+				4667DA5F1D6DC788001C9916 /* FileBrowserController.h */,
+				4667DA601D6DC788001C9916 /* FileBrowserController.m */,
+				4667DAAD1D6ED869001C9916 /* HttpClient.h */,
+				4667DAAE1D6ED869001C9916 /* HttpClient.m */,
+				4667DAAB1D6ED869001C9916 /* BaseViewController.h */,
+				4667DAAC1D6ED869001C9916 /* BaseViewController.m */,
+				468DAB7C1D8677E200657254 /* Congfig.h */,
+				468DAB7D1D8677E200657254 /* Congfig.m */,
+				468DAB7F1D867DFC00657254 /* QCloudUtils.h */,
+				468DAB801D867DFC00657254 /* QCloudUtils.m */,
+			);
+			name = AppUtil;
+			sourceTree = "<group>";
+		};
+		5D3C8AB903BD8A3FF497CE07 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C4C3072B4B7A513D7BCAE44B /* Pods-COSDemoApp.debug.xcconfig */,
+				FF7BC4CD9F751A52A069E845 /* Pods-COSDemoApp.release.xcconfig */,
+				0629F515C917983AEC4A6934 /* Pods-COSDemoAppTests1.5.5.debug.xcconfig */,
+				F8492F6BAE142338286E54DE /* Pods-COSDemoAppTests1.5.5.release.xcconfig */,
+				F494955763EF48DB5BE1449F /* Pods-COSDemoApp-COSDemoAppTests1.5.3.debug.xcconfig */,
+				01EF61B2BD0D12088B761C6D /* Pods-COSDemoApp-COSDemoAppTests1.5.3.release.xcconfig */,
+				52899BA6BA7B0F21A3095C00 /* Pods-COSDemoAppUITests.debug.xcconfig */,
+				407F61C85CB78FC07E248A1A /* Pods-COSDemoAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6AA44ED6648F8B759965D116 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3C45E93631CCA79626F6A18 /* libPods-COSDemoApp.a */,
+				09F579173342EE4299B02067 /* libPods-COSDemoAppTests.a */,
+				4AAE468BBCDEB43ABC83B4EE /* libPods-COSDemoAppUITests.a */,
+				BADA8FABCAD4189DC472884C /* libPods-COSDemoAppTests1.5.5.a */,
+				746927011822215588A6D0E6 /* libPods-COSDemoAppTests1.5.4.a */,
+				9AA4F76403DE0D1D30380DA3 /* libPods-COSDemoAppTests1.5.3.a */,
+				014402ECBF36CCBD1262C14C /* libPods-COSDemoAppTests1.5.2.a */,
+				9979A4E0E190C9EB865A4B5C /* libPods-COSDemoAppTests1.5.1.a */,
+				5623F703093623AE9A8F7050 /* libPods-COSDemoAppTests1.5.0.a */,
+				124A6376F910DAD5742EAA89 /* libPods-COSDemoAppTests1.4.0.a */,
+				5E19CE9E94945469DC64D813 /* libPods-COSDemoApp-COSDemoAppTests1.5.5.a */,
+				3D27B5602BCBA0EF059E2B8F /* libPods-COSDemoApp-COSDemoAppTests1.5.4.a */,
+				EE7F746C88F8D0E64A2E3E73 /* libPods-COSDemoApp-COSDemoAppTests1.5.3.a */,
+				37F4F837E2757EBCEFA752BD /* libPods-COSDemoApp-COSDemoAppTests1.5.2.a */,
+				68C241B8C9347A8FA2CDAA53 /* libPods-COSDemoApp-COSDemoAppTests1.5.1.a */,
+				A3F4C007D1525B4DE64781D4 /* libPods-COSDemoApp-COSDemoAppTests1.5.0.a */,
+				D7BE437C8356E99D67DA0670 /* libPods-COSDemoApp-COSDemoAppTests1.4.0.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A862AC7A201766AA009F88C2 /* COSDemoAppTests1.5.5 */ = {
+			isa = PBXGroup;
+			children = (
+				A862AC7B201766AA009F88C2 /* COSDemoAppTests1_5_5.m */,
+				A862AC7D201766AA009F88C2 /* Info.plist */,
+			);
+			path = COSDemoAppTests1.5.5;
+			sourceTree = "<group>";
+		};
+		A862AC8820176796009F88C2 /* COSDemoAppUITests1.5.4 */ = {
+			isa = PBXGroup;
+			children = (
+				A862AC8920176796009F88C2 /* COSDemoAppUITests1_5_4.m */,
+				A862AC8B20176796009F88C2 /* Info.plist */,
+			);
+			path = COSDemoAppUITests1.5.4;
+			sourceTree = "<group>";
+		};
+		A862AC96201767CC009F88C2 /* COSDemoAppTests1.5.4 */ = {
+			isa = PBXGroup;
+			children = (
+				A862AC97201767CC009F88C2 /* COSDemoAppTests1_5_4.m */,
+				A862AC99201767CC009F88C2 /* Info.plist */,
+			);
+			path = COSDemoAppTests1.5.4;
+			sourceTree = "<group>";
+		};
+		A862ACA4201767D7009F88C2 /* COSDemoAppTests1.5.3 */ = {
+			isa = PBXGroup;
+			children = (
+				A862ACA5201767D7009F88C2 /* COSDemoAppTests1_5_3.m */,
+				A862ACA7201767D7009F88C2 /* Info.plist */,
+			);
+			path = COSDemoAppTests1.5.3;
+			sourceTree = "<group>";
+		};
+		A862ACB2201767E4009F88C2 /* COSDemoAppTests1.5.2 */ = {
+			isa = PBXGroup;
+			children = (
+				A862ACB3201767E4009F88C2 /* COSDemoAppTests1_5_2.m */,
+				A862ACB5201767E4009F88C2 /* Info.plist */,
+			);
+			path = COSDemoAppTests1.5.2;
+			sourceTree = "<group>";
+		};
+		A862ACC0201767EC009F88C2 /* COSDemoAppTests1.5.1 */ = {
+			isa = PBXGroup;
+			children = (
+				A862ACC1201767EC009F88C2 /* COSDemoAppTests1_5_1.m */,
+				A862ACC3201767EC009F88C2 /* Info.plist */,
+			);
+			path = COSDemoAppTests1.5.1;
+			sourceTree = "<group>";
+		};
+		A862ACCE201767F5009F88C2 /* COSDemoAppTests1.5.0 */ = {
+			isa = PBXGroup;
+			children = (
+				A862ACCF201767F5009F88C2 /* COSDemoAppTests1_5_0.m */,
+				A862ACD1201767F5009F88C2 /* Info.plist */,
+			);
+			path = COSDemoAppTests1.5.0;
+			sourceTree = "<group>";
+		};
+		A862ACDC20176819009F88C2 /* COSDemoAppUITests1.4.0 */ = {
+			isa = PBXGroup;
+			children = (
+				A862ACDD20176819009F88C2 /* COSDemoAppUITests1_4_0.m */,
+				A862ACDF20176819009F88C2 /* Info.plist */,
+			);
+			path = COSDemoAppUITests1.4.0;
+			sourceTree = "<group>";
+		};
+		A862ACEA2018252A009F88C2 /* COSDemoAppTests1.4.0 */ = {
+			isa = PBXGroup;
+			children = (
+				A862ACEB2018252A009F88C2 /* COSDemoAppTests1_4_0.m */,
+				A862ACED2018252A009F88C2 /* Info.plist */,
+			);
+			path = COSDemoAppTests1.4.0;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4667D9F41D6C4729001C9916 /* COSDemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4667DA221D6C4729001C9916 /* Build configuration list for PBXNativeTarget "COSDemoApp" */;
+			buildPhases = (
+				082480719999CB73EEEDD314 /* [CP] Check Pods Manifest.lock */,
+				4667D9F11D6C4729001C9916 /* Sources */,
+				4667D9F21D6C4729001C9916 /* Frameworks */,
+				4667D9F31D6C4729001C9916 /* Resources */,
+				BCA775A2E9F26DBF50BFD560 /* [CP] Embed Pods Frameworks */,
+				2FFF4C9987C80D5F3AA0BA38 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = COSDemoApp;
+			productName = COSDemoApp;
+			productReference = 4667D9F51D6C4729001C9916 /* COSDemoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4667DA0D1D6C4729001C9916 /* COSDemoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4667DA251D6C4729001C9916 /* Build configuration list for PBXNativeTarget "COSDemoAppTests" */;
+			buildPhases = (
+				4667DA0A1D6C4729001C9916 /* Sources */,
+				4667DA0B1D6C4729001C9916 /* Frameworks */,
+				4667DA0C1D6C4729001C9916 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4667DA101D6C4729001C9916 /* PBXTargetDependency */,
+			);
+			name = COSDemoAppTests;
+			productName = COSDemoAppTests;
+			productReference = 4667DA0E1D6C4729001C9916 /* COSDemoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4667DA181D6C4729001C9916 /* COSDemoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4667DA281D6C4729001C9916 /* Build configuration list for PBXNativeTarget "COSDemoAppUITests" */;
+			buildPhases = (
+				892A831D4A7714CA02C70F9A /* [CP] Check Pods Manifest.lock */,
+				4667DA151D6C4729001C9916 /* Sources */,
+				4667DA161D6C4729001C9916 /* Frameworks */,
+				4667DA171D6C4729001C9916 /* Resources */,
+				4E8E15066627A40860ED88A2 /* [CP] Embed Pods Frameworks */,
+				283B320278E9E795D8CF7AF7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4667DA1B1D6C4729001C9916 /* PBXTargetDependency */,
+			);
+			name = COSDemoAppUITests;
+			productName = COSDemoAppUITests;
+			productReference = 4667DA191D6C4729001C9916 /* COSDemoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A862AC78201766AA009F88C2 /* COSDemoAppTests1.5.5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A862AC82201766AB009F88C2 /* Build configuration list for PBXNativeTarget "COSDemoAppTests1.5.5" */;
+			buildPhases = (
+				A862AC75201766AA009F88C2 /* Sources */,
+				A862AC76201766AA009F88C2 /* Frameworks */,
+				A862AC77201766AA009F88C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A862AC7F201766AA009F88C2 /* PBXTargetDependency */,
+			);
+			name = COSDemoAppTests1.5.5;
+			productName = COSDemoAppTests1.5.5;
+			productReference = A862AC79201766AA009F88C2 /* COSDemoAppTests1.5.5.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A862AC94201767CC009F88C2 /* COSDemoAppTests1.5.4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A862AC9C201767CC009F88C2 /* Build configuration list for PBXNativeTarget "COSDemoAppTests1.5.4" */;
+			buildPhases = (
+				A862AC91201767CC009F88C2 /* Sources */,
+				A862AC92201767CC009F88C2 /* Frameworks */,
+				A862AC93201767CC009F88C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A862AC9B201767CC009F88C2 /* PBXTargetDependency */,
+			);
+			name = COSDemoAppTests1.5.4;
+			productName = COSDemoAppTests1.5.4;
+			productReference = A862AC95201767CC009F88C2 /* COSDemoAppTests1.5.4.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A862ACA2201767D7009F88C2 /* COSDemoAppTests1.5.3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A862ACAA201767D7009F88C2 /* Build configuration list for PBXNativeTarget "COSDemoAppTests1.5.3" */;
+			buildPhases = (
+				5162AEDC57D732AF26A727B0 /* [CP] Check Pods Manifest.lock */,
+				A862AC9F201767D7009F88C2 /* Sources */,
+				A862ACA0201767D7009F88C2 /* Frameworks */,
+				A862ACA1201767D7009F88C2 /* Resources */,
+				0604D28C934885872DD6C46E /* [CP] Embed Pods Frameworks */,
+				BDDBB5EC029C6EB3A95775A6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A862ACA9201767D7009F88C2 /* PBXTargetDependency */,
+			);
+			name = COSDemoAppTests1.5.3;
+			productName = COSDemoAppTests1.5.3;
+			productReference = A862ACA3201767D7009F88C2 /* COSDemoAppTests1.5.3.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A862ACB0201767E4009F88C2 /* COSDemoAppTests1.5.2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A862ACB8201767E4009F88C2 /* Build configuration list for PBXNativeTarget "COSDemoAppTests1.5.2" */;
+			buildPhases = (
+				A862ACAD201767E4009F88C2 /* Sources */,
+				A862ACAE201767E4009F88C2 /* Frameworks */,
+				A862ACAF201767E4009F88C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A862ACB7201767E4009F88C2 /* PBXTargetDependency */,
+			);
+			name = COSDemoAppTests1.5.2;
+			productName = COSDemoAppTests1.5.2;
+			productReference = A862ACB1201767E4009F88C2 /* COSDemoAppTests1.5.2.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A862ACBE201767EC009F88C2 /* COSDemoAppTests1.5.1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A862ACC6201767EC009F88C2 /* Build configuration list for PBXNativeTarget "COSDemoAppTests1.5.1" */;
+			buildPhases = (
+				A862ACBB201767EC009F88C2 /* Sources */,
+				A862ACBC201767EC009F88C2 /* Frameworks */,
+				A862ACBD201767EC009F88C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A862ACC5201767EC009F88C2 /* PBXTargetDependency */,
+			);
+			name = COSDemoAppTests1.5.1;
+			productName = COSDemoAppTests1.5.1;
+			productReference = A862ACBF201767EC009F88C2 /* COSDemoAppTests1.5.1.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A862ACCC201767F5009F88C2 /* COSDemoAppTests1.5.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A862ACD4201767F5009F88C2 /* Build configuration list for PBXNativeTarget "COSDemoAppTests1.5.0" */;
+			buildPhases = (
+				A862ACC9201767F5009F88C2 /* Sources */,
+				A862ACCA201767F5009F88C2 /* Frameworks */,
+				A862ACCB201767F5009F88C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A862ACD3201767F5009F88C2 /* PBXTargetDependency */,
+			);
+			name = COSDemoAppTests1.5.0;
+			productName = COSDemoAppTests1.5.0;
+			productReference = A862ACCD201767F5009F88C2 /* COSDemoAppTests1.5.0.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A862ACE82018252A009F88C2 /* COSDemoAppTests1.4.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A862ACF22018252A009F88C2 /* Build configuration list for PBXNativeTarget "COSDemoAppTests1.4.0" */;
+			buildPhases = (
+				A862ACE52018252A009F88C2 /* Sources */,
+				A862ACE62018252A009F88C2 /* Frameworks */,
+				A862ACE72018252A009F88C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A862ACEF2018252A009F88C2 /* PBXTargetDependency */,
+			);
+			name = COSDemoAppTests1.4.0;
+			productName = COSDemoAppTests1.4.0;
+			productReference = A862ACE92018252A009F88C2 /* COSDemoAppTests1.4.0.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4667D9ED1D6C4729001C9916 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = tencent;
+				TargetAttributes = {
+					4667D9F41D6C4729001C9916 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = ZQ6VG9U668;
+						ProvisioningStyle = Automatic;
+					};
+					4667DA0D1D6C4729001C9916 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = ZQ6VG9U668;
+						TestTargetID = 4667D9F41D6C4729001C9916;
+					};
+					4667DA181D6C4729001C9916 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = ZQ6VG9U668;
+						TestTargetID = 4667D9F41D6C4729001C9916;
+					};
+					A862AC78201766AA009F88C2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4667D9F41D6C4729001C9916;
+					};
+					A862AC94201767CC009F88C2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4667D9F41D6C4729001C9916;
+					};
+					A862ACA2201767D7009F88C2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4667D9F41D6C4729001C9916;
+					};
+					A862ACB0201767E4009F88C2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4667D9F41D6C4729001C9916;
+					};
+					A862ACBE201767EC009F88C2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4667D9F41D6C4729001C9916;
+					};
+					A862ACCC201767F5009F88C2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4667D9F41D6C4729001C9916;
+					};
+					A862ACE82018252A009F88C2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4667D9F41D6C4729001C9916;
+					};
+				};
+			};
+			buildConfigurationList = 4667D9F01D6C4729001C9916 /* Build configuration list for PBXProject "COSDemoApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4667D9EC1D6C4729001C9916;
+			productRefGroup = 4667D9F61D6C4729001C9916 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4667D9F41D6C4729001C9916 /* COSDemoApp */,
+				4667DA0D1D6C4729001C9916 /* COSDemoAppTests */,
+				4667DA181D6C4729001C9916 /* COSDemoAppUITests */,
+				A862AC78201766AA009F88C2 /* COSDemoAppTests1.5.5 */,
+				A862AC94201767CC009F88C2 /* COSDemoAppTests1.5.4 */,
+				A862ACA2201767D7009F88C2 /* COSDemoAppTests1.5.3 */,
+				A862ACB0201767E4009F88C2 /* COSDemoAppTests1.5.2 */,
+				A862ACBE201767EC009F88C2 /* COSDemoAppTests1.5.1 */,
+				A862ACCC201767F5009F88C2 /* COSDemoAppTests1.5.0 */,
+				A862ACE82018252A009F88C2 /* COSDemoAppTests1.4.0 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4667D9F31D6C4729001C9916 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EE90171DBB37C700628CBC /* IMG_0225.jpg in Resources */,
+				4667DA081D6C4729001C9916 /* LaunchScreen.storyboard in Resources */,
+				4647E4FD1DC08F14008A7ED3 /* ceshi_jp.jpg in Resources */,
+				4667DA051D6C4729001C9916 /* Assets.xcassets in Resources */,
+				46EE901B1DBB45F600628CBC /* test.mp4 in Resources */,
+				4667DA031D6C4729001C9916 /* Main.storyboard in Resources */,
+				A84AB514201C2C7700A47F14 /* key.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4667DA0C1D6C4729001C9916 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A84AB515201C2C7700A47F14 /* key.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4667DA171D6C4729001C9916 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A862AC77201766AA009F88C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A84AB516201C2C7700A47F14 /* key.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A862AC93201767CC009F88C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A84AB517201C2C7700A47F14 /* key.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A862ACA1201767D7009F88C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A84AB518201C2C7700A47F14 /* key.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A862ACAF201767E4009F88C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A84AB519201C2C7700A47F14 /* key.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A862ACBD201767EC009F88C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A84AB51A201C2C7700A47F14 /* key.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A862ACCB201767F5009F88C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A84AB51B201C2C7700A47F14 /* key.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A862ACE72018252A009F88C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A84AB51C201C2C7700A47F14 /* key.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0604D28C934885872DD6C46E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-COSDemoApp-COSDemoAppTests1.5.3/Pods-COSDemoApp-COSDemoAppTests1.5.3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		082480719999CB73EEEDD314 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-COSDemoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		283B320278E9E795D8CF7AF7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-COSDemoAppUITests/Pods-COSDemoAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FFF4C9987C80D5F3AA0BA38 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-COSDemoApp/Pods-COSDemoApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E8E15066627A40860ED88A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-COSDemoAppUITests/Pods-COSDemoAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5162AEDC57D732AF26A727B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-COSDemoApp-COSDemoAppTests1.5.3-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		892A831D4A7714CA02C70F9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-COSDemoAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCA775A2E9F26DBF50BFD560 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-COSDemoApp/Pods-COSDemoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDDBB5EC029C6EB3A95775A6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-COSDemoApp-COSDemoAppTests1.5.3/Pods-COSDemoApp-COSDemoAppTests1.5.3-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4667D9F11D6C4729001C9916 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4667DAB01D6ED869001C9916 /* HttpClient.m in Sources */,
+				468DAB811D867DFC00657254 /* QCloudUtils.m in Sources */,
+				4667DA001D6C4729001C9916 /* ViewController.m in Sources */,
+				4667DAAF1D6ED869001C9916 /* BaseViewController.m in Sources */,
+				468DAB7B1D86735A00657254 /* RegisterViewController.m in Sources */,
+				468DAB7E1D8677E200657254 /* Congfig.m in Sources */,
+				4667D9FD1D6C4729001C9916 /* AppDelegate.m in Sources */,
+				4667DA611D6DC788001C9916 /* FileBrowserController.m in Sources */,
+				4667D9FA1D6C4729001C9916 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4667DA0A1D6C4729001C9916 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4667DA131D6C4729001C9916 /* COSDemoAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4667DA151D6C4729001C9916 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4667DA1E1D6C4729001C9916 /* COSDemoAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A862AC75201766AA009F88C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A862AC7C201766AA009F88C2 /* COSDemoAppTests1_5_5.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A862AC91201767CC009F88C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A862AC98201767CC009F88C2 /* COSDemoAppTests1_5_4.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A862AC9F201767D7009F88C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A862ACA6201767D7009F88C2 /* COSDemoAppTests1_5_3.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A862ACAD201767E4009F88C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A862ACB4201767E4009F88C2 /* COSDemoAppTests1_5_2.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A862ACBB201767EC009F88C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A862ACC2201767EC009F88C2 /* COSDemoAppTests1_5_1.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A862ACC9201767F5009F88C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A862ACD0201767F5009F88C2 /* COSDemoAppTests1_5_0.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A862ACE52018252A009F88C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A862ACEC2018252A009F88C2 /* COSDemoAppTests1_4_0.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4667DA101D6C4729001C9916 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4667D9F41D6C4729001C9916 /* COSDemoApp */;
+			targetProxy = 4667DA0F1D6C4729001C9916 /* PBXContainerItemProxy */;
+		};
+		4667DA1B1D6C4729001C9916 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4667D9F41D6C4729001C9916 /* COSDemoApp */;
+			targetProxy = 4667DA1A1D6C4729001C9916 /* PBXContainerItemProxy */;
+		};
+		A862AC7F201766AA009F88C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4667D9F41D6C4729001C9916 /* COSDemoApp */;
+			targetProxy = A862AC7E201766AA009F88C2 /* PBXContainerItemProxy */;
+		};
+		A862AC9B201767CC009F88C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4667D9F41D6C4729001C9916 /* COSDemoApp */;
+			targetProxy = A862AC9A201767CC009F88C2 /* PBXContainerItemProxy */;
+		};
+		A862ACA9201767D7009F88C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4667D9F41D6C4729001C9916 /* COSDemoApp */;
+			targetProxy = A862ACA8201767D7009F88C2 /* PBXContainerItemProxy */;
+		};
+		A862ACB7201767E4009F88C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4667D9F41D6C4729001C9916 /* COSDemoApp */;
+			targetProxy = A862ACB6201767E4009F88C2 /* PBXContainerItemProxy */;
+		};
+		A862ACC5201767EC009F88C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4667D9F41D6C4729001C9916 /* COSDemoApp */;
+			targetProxy = A862ACC4201767EC009F88C2 /* PBXContainerItemProxy */;
+		};
+		A862ACD3201767F5009F88C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4667D9F41D6C4729001C9916 /* COSDemoApp */;
+			targetProxy = A862ACD2201767F5009F88C2 /* PBXContainerItemProxy */;
+		};
+		A862ACEF2018252A009F88C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4667D9F41D6C4729001C9916 /* COSDemoApp */;
+			targetProxy = A862ACEE2018252A009F88C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4667DA011D6C4729001C9916 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4667DA021D6C4729001C9916 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4667DA061D6C4729001C9916 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4667DA071D6C4729001C9916 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4667DA201D6C4729001C9916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4667DA211D6C4729001C9916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4667DA231D6C4729001C9916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4C3072B4B7A513D7BCAE44B /* Pods-COSDemoApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = ZQ6VG9U668;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Libraries";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"./Libraries/COSClient/./**",
+				);
+				INFOPLIST_FILE = COSDemoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Libraries/",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.qcloud.COSDemoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WARNING_CFLAGS = "";
+			};
+			name = Debug;
+		};
+		4667DA241D6C4729001C9916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF7BC4CD9F751A52A069E845 /* Pods-COSDemoApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = ZQ6VG9U668;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Libraries";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"./Libraries/COSClient/./**",
+				);
+				INFOPLIST_FILE = COSDemoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Libraries/",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.qcloud.COSDemoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WARNING_CFLAGS = "";
+			};
+			name = Release;
+		};
+		4667DA261D6C4729001C9916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZQ6VG9U668;
+				INFOPLIST_FILE = COSDemoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent..COSDemoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COSDemoApp.app/COSDemoApp";
+			};
+			name = Debug;
+		};
+		4667DA271D6C4729001C9916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZQ6VG9U668;
+				INFOPLIST_FILE = COSDemoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent..COSDemoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COSDemoApp.app/COSDemoApp";
+			};
+			name = Release;
+		};
+		4667DA291D6C4729001C9916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52899BA6BA7B0F21A3095C00 /* Pods-COSDemoAppUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ZQ6VG9U668;
+				INFOPLIST_FILE = COSDemoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent..COSDemoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = COSDemoApp;
+			};
+			name = Debug;
+		};
+		4667DA2A1D6C4729001C9916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 407F61C85CB78FC07E248A1A /* Pods-COSDemoAppUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ZQ6VG9U668;
+				INFOPLIST_FILE = COSDemoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent..COSDemoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = COSDemoApp;
+			};
+			name = Release;
+		};
+		A862AC80201766AB009F88C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = COSDemoAppTests1.5.5/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ericcheung.COSDemoAppTests1-5-5";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COSDemoApp.app/COSDemoApp";
+			};
+			name = Debug;
+		};
+		A862AC81201766AB009F88C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = COSDemoAppTests1.5.5/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ericcheung.COSDemoAppTests1-5-5";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COSDemoApp.app/COSDemoApp";
+			};
+			name = Release;
+		};
+		A862AC9D201767CC009F88C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = COSDemoAppTests1.5.4/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ericcheung.COSDemoAppTests1-5-4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COSDemoApp.app/COSDemoApp";
+			};
+			name = Debug;
+		};
+		A862AC9E201767CC009F88C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = COSDemoAppTests1.5.4/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ericcheung.COSDemoAppTests1-5-4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COSDemoApp.app/COSDemoApp";
+			};
+			name = Release;
+		};
+		A862ACAB201767D7009F88C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F494955763EF48DB5BE1449F /* Pods-COSDemoApp-COSDemoAppTests1.5.3.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = COSDemoAppTests1.5.3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ericcheung.COSDemoAppTests1-5-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COSDemoApp.app/COSDemoApp";
+			};
+			name = Debug;
+		};
+		A862ACAC201767D7009F88C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01EF61B2BD0D12088B761C6D /* Pods-COSDemoApp-COSDemoAppTests1.5.3.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = COSDemoAppTests1.5.3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ericcheung.COSDemoAppTests1-5-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COSDemoApp.app/COSDemoApp";
+			};
+			name = Release;
+		};
+		A862ACB9201767E4009F88C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = COSDemoAppTests1.5.2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ericcheung.COSDemoAppTests1-5-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COSDemoApp.app/COSDemoApp";
+			};
+			name = Debug;
+		};
+		A862ACBA201767E4009F88C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = COSDemoAppTests1.5.2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ericcheung.COSDemoAppTests1-5-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COSDemoApp.app/COSDemoApp";
+			};
+			name = Release;
+		};
+		A862ACC7201767EC009F88C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = COSDemoAppTests1.5.1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ericcheung.COSDemoAppTests1-5-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COSDemoApp.app/COSDemoApp";
+			};
+			name = Debug;
+		};
+		A862ACC8201767EC009F88C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = COSDemoAppTests1.5.1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ericcheung.COSDemoAppTests1-5-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COSDemoApp.app/COSDemoApp";
+			};
+			name = Release;
+		};
+		A862ACD5201767F5009F88C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = COSDemoAppTests1.5.0/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ericcheung.COSDemoAppTests1-5-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COSDemoApp.app/COSDemoApp";
+			};
+			name = Debug;
+		};
+		A862ACD6201767F5009F88C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = COSDemoAppTests1.5.0/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ericcheung.COSDemoAppTests1-5-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COSDemoApp.app/COSDemoApp";
+			};
+			name = Release;
+		};
+		A862ACF02018252A009F88C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = COSDemoAppTests1.4.0/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ericcheung.COSDemoAppTests1-4-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COSDemoApp.app/COSDemoApp";
+			};
+			name = Debug;
+		};
+		A862ACF12018252A009F88C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = COSDemoAppTests1.4.0/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ericcheung.COSDemoAppTests1-4-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COSDemoApp.app/COSDemoApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4667D9F01D6C4729001C9916 /* Build configuration list for PBXProject "COSDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4667DA201D6C4729001C9916 /* Debug */,
+				4667DA211D6C4729001C9916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4667DA221D6C4729001C9916 /* Build configuration list for PBXNativeTarget "COSDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4667DA231D6C4729001C9916 /* Debug */,
+				4667DA241D6C4729001C9916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4667DA251D6C4729001C9916 /* Build configuration list for PBXNativeTarget "COSDemoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4667DA261D6C4729001C9916 /* Debug */,
+				4667DA271D6C4729001C9916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4667DA281D6C4729001C9916 /* Build configuration list for PBXNativeTarget "COSDemoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4667DA291D6C4729001C9916 /* Debug */,
+				4667DA2A1D6C4729001C9916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A862AC82201766AB009F88C2 /* Build configuration list for PBXNativeTarget "COSDemoAppTests1.5.5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A862AC80201766AB009F88C2 /* Debug */,
+				A862AC81201766AB009F88C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A862AC9C201767CC009F88C2 /* Build configuration list for PBXNativeTarget "COSDemoAppTests1.5.4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A862AC9D201767CC009F88C2 /* Debug */,
+				A862AC9E201767CC009F88C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A862ACAA201767D7009F88C2 /* Build configuration list for PBXNativeTarget "COSDemoAppTests1.5.3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A862ACAB201767D7009F88C2 /* Debug */,
+				A862ACAC201767D7009F88C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A862ACB8201767E4009F88C2 /* Build configuration list for PBXNativeTarget "COSDemoAppTests1.5.2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A862ACB9201767E4009F88C2 /* Debug */,
+				A862ACBA201767E4009F88C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A862ACC6201767EC009F88C2 /* Build configuration list for PBXNativeTarget "COSDemoAppTests1.5.1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A862ACC7201767EC009F88C2 /* Debug */,
+				A862ACC8201767EC009F88C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A862ACD4201767F5009F88C2 /* Build configuration list for PBXNativeTarget "COSDemoAppTests1.5.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A862ACD5201767F5009F88C2 /* Debug */,
+				A862ACD6201767F5009F88C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A862ACF22018252A009F88C2 /* Build configuration list for PBXNativeTarget "COSDemoAppTests1.4.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A862ACF02018252A009F88C2 /* Debug */,
+				A862ACF12018252A009F88C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4667D9ED1D6C4729001C9916 /* Project object */;
+}

@@ -1,0 +1,19 @@
+require 'pathname'
+source "https://github.com/CocoaPods/Specs"
+use_frameworks!
+def libpod(name)
+pod name, path:"../../Libs/#{name}"
+end
+
+def bizpod(name)
+pod name, path:"../../BisnessComponents/COSXML/#{name}"
+end
+
+target 'QCloudCOSXMLDemo' do
+pod 'FLEX'
+libpod('QCloudCore')
+bizpod('QCloudCOSXML')
+target 'QCloudCOSXMLDemoTests' do
+inherit! :search_paths
+end
+end

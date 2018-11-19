@@ -1,0 +1,10 @@
+module: COSXMLToolCommon
+author: QCloudTerminalLab
+author_url: http://qcloud.com
+objc: true
+clean: true
+framework_root: .
+umbrella_header: Pod/Classes/COSXMLToolCommon.h
+sdk: iphoneos
+hide_documentation_coverage: true
+docset_path: com.tencent.qcloud.COSXMLToolCommon.docset
